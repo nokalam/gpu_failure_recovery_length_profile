@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "nokalam-datasim_jd049"
+name = "nokalam-gpu_failure_recovery_length_profile"
 version = "0.1.0"
 description = "按段落统计数据合成与仿真工程师·GPU 故障与作业自愈相关的长度分布，标出过长、过短与重复表达的部分"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://nokalam.github.io"
-Repository = "https://github.com/nokalam/datasim_jd049"
-Issues = "https://github.com/nokalam/datasim_jd049/issues"
+Repository = "https://github.com/nokalam/gpu_failure_recovery_length_profile"
+Issues = "https://github.com/nokalam/gpu_failure_recovery_length_profile/issues"
 
 [project.scripts]
-datasim_jd049 = "datasim_jd049:main"
+gpu_failure_recovery_length_profile = "gpu_failure_recovery_length_profile:main"
 
 [tool.setuptools]
-py-modules = ["datasim_jd049"]
+py-modules = ["gpu_failure_recovery_length_profile"]
